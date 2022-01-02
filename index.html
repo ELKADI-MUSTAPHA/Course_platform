@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CS-Design</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript">
+        (function() {
+            var css = document.createElement('link');
+            css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
+            css.rel = 'stylesheet';
+            css.type = 'text/css';
+            document.getElementsByTagName('head')[0].appendChild(css);
+        })();
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="./"> CS-Design</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="./" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="course.html" class="nav-link">Course</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- END nav -->
+    <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
+                <div class="col-md-7">
+                    <span class="subheading">Welcome to CS-Design</span>
+                    <h1 class="mb-4">The Platform That Will Help You
+                        Start Your Design Career</h1>
+                    <p class="caps">To teach you the skills of Graphic Design </p>
+                    <p class="mb-0"><a href="course.html" class="btn btn-primary">Our Course</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="ftco-section ftco-no-pb ftco-no-pt">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7"></div>
+                <div class="col-md-5 order-md-last">
+                    <div class="login-wrap p-4 p-md-5" id="signup">
+                        <h3 class="mb-4">Register Now</h3>
+                        <form action="#" class="signup-form">
+                            <input type="hidden" name="signup">
+                            <div class="form-group">
+                                <label class="label">Full Name</label>
+                                <input type="text" name="name" class="form-control" placeholder="" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="label">Email Address</label>
+                                <input type="email" name="email" class="form-control" placeholder="" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="label">Password</label>
+                                <input id="password-field" name="password" type="password" class="form-control" placeholder="" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="label">Confirm Password</label>
+                                <input id="confirm-password" name="confirm-password" type="password" class="form-control" placeholder="" required>
+                            </div>
+                            <div class="message"></div>
+                            <div class="form-group d-flex justify-content-end mt-4">
+                                <button type="submit" class="btn btn-secondary submit">Sign Up</button>
+                            </div>
+                        </form>
+                        <p class="text-center">Already have an account? <a href="#" onclick="$('#signup').hide();$('#signin').show();">Sign In</a></p>
+                    </div>
+                    <div class="login-wrap p-4 p-md-5" style="display:none" id="signin">
+                        <h3 class="mb-4">Login</h3>
+                        <form action="#" class="signin-form">
+                            <input type="hidden" name="login">
+                            <div class="form-group">
+                                <label class="label" for="email">Email Address</label>
+                                <input type="email" name="email" class="form-control" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label class="label" for="password">Password</label>
+                                <input id="password" name="password" type="password" class="form-control" placeholder="">
+                            </div>
+                            <div class="message"></div>
+                            <div class="form-group d-flex justify-content-end mt-4">
+                                <button type="submit" name="login" class="btn btn-secondary submit">Login</button>
+                            </div>
+                        </form>
+                        <p class="text-center">Don't have an account? <a href="#" onclick="$('#signin').hide();$('#signup').show();">Sign Up</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="row justify-content-center pb-4">
+                <div class="col-md-12 heading-section text-center">
+                    <h2 class="mb-4">Start Your Course</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project-wrap">
+                        <a href="lesson.html" class="img" style="background-image: url(lessons/covers/2195.jpg);">
+                                <span class="price">Lesson 1</span>
+                            </a>
+                        <div class="text p-4">
+                            <h3><a href="lesson.html">Fundamentals of visual and graphic design</a></h3>
+                            <ul class="d-flex justify-content-between">
+                                <li>8 Minutes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-wrap">
+                        <a href="lesson.html" class="img" style="background-image: url(lessons/covers/18676.jpg);">
+                                <span class="price">Lesson 2</span>
+                            </a>
+                        <div class="text p-4">
+                            <h3><a href="lesson.html">explore basic design principles - covering composition...</a></h3>
+                            <ul class="d-flex justify-content-between">html
+                                <li>25 Minutes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project-wrap">
+                        <a href="lesson.html" class="img" style="background-image: url(lessons/covers/SL_091019_23190_77.jpg);">
+                                <span class="price">Lesson 3</span>
+                            </a>
+                        <div class="text p-4">
+                            <h3><a href="lesson.html">This course gives you a taste of what graphic designers do in the real world...</a></h3>
+                            <ul class="d-flex justify-content-between">
+                                <li>35 Minutes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="mb-0 text-center"><a href="course.html" class="btn btn-primary">Show More</a></p>
+        </div>
+    </section>
+
+    <section class="ftco-section ftco-about img">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-12 about-intro">
+                    <div class="row">
+                        <div class="col-md-6 d-flex">
+                            <div class="d-flex about-wrap">
+                                <div class="img d-flex align-items-center justify-content-center" style="background-image:url(images/4354122.jpg);">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pl-md-5 py-5">
+                            <div class="row justify-content-start pb-3">
+                                <div class="col-md-12 heading-section">
+                                    <h2 class="mb-4">Objectives of Platform</h2>
+                                    <p>This course guides you through the fundamentals of visual and graphic design and lays out their processes. We explore basic design principles - covering composition, balance, contrast and hierarchy - and examine important design elements like lines, shapes, forms and textures. This course gives you a taste of what graphic designers do in the real world and offers the training you need to join them with your newly acquired skills.</p>
+                                    <p><a href="contact.html" class="btn btn-primary">Get in touch with us</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+    <section class="ftco-intro ftco-section ftco-no-pb">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <div class="img" style="background-image: url(images/bg_1.jpg);">
+                        <div class="overlay"></div>
+                        <h2>To start the course, you must fill our survey</h2>
+                        <p class="mb-0"><a href="/" class="btn btn-primary px-4 py-3">Start Now</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="ftco-section services-section">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col-md-12 heading-section pr-md-5 ftco-animate d-flex align-items-center">
+                    <div class="w-100 mb-4 mb-md-0">
+                        <h4 class="mb-4" style="font-weight: bold;">Advantages of Being a Graphic Designer
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 d-flex align-self-stretch ftco-animate">
+                            <div class="services">
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="fas fa-random"></span></div>
+                                <div class="media-body">
+                                    <h3 class="heading mb-3">1-Your employment isn’t tied to just one industry</h3>
+                                    <p>Companies across a huge variety of industries need to promote their brands. This means that they need logos, brand guidelines and tons of other important visual materials to support them.
+                                        This means there’s plenty of opportunity to work for clients across a wide variety of industries—one day you may be whipping up a promotional poster for a charity event and the next you could be working on a logo for a healthcare company.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 d-flex align-self-stretch ftco-animate">
+                            <div class="services">
+                                <div class="icon icon-2 d-flex align-items-center justify-content-center"><span class="fas fa-compass"></span></div>
+                                <div class="media-body">
+                                    <h3 class="heading mb-3">2-You can work in multiple environments</h3>
+                                    <p>The way work comes to graphic designers is pretty unique. You may find yourself as part of a small, in-house team working strictly for a single client or in a fast-paced agency environment that works with multiple clients with their own distinct visual feel. Freelancing is also an option for designers who would like to tap into their entrepreneurial spirit from the comfort of home. Each of these work environments have their pros and cons.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 d-flex align-self-stretch ftco-animate">
+                            <div class="services">
+                                <div class="icon icon-3 d-flex align-items-center justify-content-center"><span class="fab fa-watchman-monitoring"></span></div>
+                                <div class="media-body">
+                                    <h3 class="heading mb-3">3-You can choose to be self-employed</h3>
+                                    <p>Not only can you work in a variety of environments, but also many designers find that they prefer to be their own boss and choose to start their own freelance business. Not only does this mean you can work from home or your local coffee shop, but it also means you can set your own prices and hours.
+                                        Keep in mind, however, that with the freedom of self-employment comes the responsibility of all the administrative work that comes with being your own boss: sending invoices, following up with clients, setting aside money for taxes and more.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 d-flex align-self-stretch ftco-animate">
+                            <div class="services">
+                                <div class="icon icon-4 d-flex align-items-center justify-content-center"><span class="fas fa-alarm-clock"></span></div>
+                                <div class="media-body">
+                                    <h3 class="heading mb-3">4-It’s not boring</h3>
+                                    <p>When it comes to graphic design, there are always new technologies and trends to learn. Style and aesthetic change so quickly in American culture, and technology shifts and evolves just as quickly. If you want to stay relevant, it’s essential to keep up with the times and make sure you’re ready for whatever is up and coming. Having a curious mind and a teachable spirit will take you a long way in this profession.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section testimony-section bg-light">
+        <div class="overlay" style="background-image: url(images/bg_2.jpg);"></div>
+        <div class="container">
+            <div class="row pb-4">
+                <div class="col-md-7 heading-section ftco-animate">
+                    <h2 class="mb-4">What Are Students Says</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container container-2">
+            <div class="row ftco-animate">
+                <div class="col-md-12">
+                    <div class="carousel-testimony owl-carousel">
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="text">
+                                    <p class="star">
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </p>
+                                    <p class="mb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url(images/men-icon.png)"></div>
+                                        <div class="pl-3">
+                                            <p class="name">Sid Saif</p>
+                                            <span class="position">student</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="text">
+                                    <p class="star">
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </p>
+                                    <p class="mb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url(images/men-icon.png)"></div>
+                                        <div class="pl-3">
+                                            <p class="name">Jhon barbi</p>
+                                            <span class="position">student</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="text">
+                                    <p class="star">
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </p>
+                                    <p class="mb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url(images/men-icon.png)"></div>
+                                        <div class="pl-3">
+                                            <p class="name">Mohamed Ali</p>
+                                            <span class="position">student</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="text">
+                                    <p class="star">
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </p>
+                                    <p class="mb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url(images/men-icon.png)"></div>
+                                        <div class="pl-3">
+                                            <p class="name">Sara Salim</p>
+                                            <span class="position">student</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="text">
+                                    <p class="star">
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </p>
+                                    <p class="mb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url(images/men-icon.png)"></div>
+                                        <div class="pl-3">
+                                            <p class="name">Houda Motawakil</p>
+                                            <span class="position">student</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="text">
+                                    <p class="star">
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </p>
+                                    <p class="mb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url(images/men-icon.png)"></div>
+                                        <div class="pl-3">
+                                            <p class="name">Saad haoui</p>
+                                            <span class="position">student</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="ftco-footer ftco-no-pt text-center">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-4 pt-5">
+                    <div class="ftco-footer-widget pt-md-5 mb-4">
+                        <h2 class="ftco-heading-2">About</h2>
+                        <p>The Platform That Will Help You
+                            Start Your Design Career</p>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-5">
+                    <div class="ftco-footer-widget pt-md-5 mb-4">
+                        <h2 class="ftco-heading-2">Site Map</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="py-2 d-block">Sign Up</a></li>
+                            <li><a href="#" class="py-2 d-block">About Us</a></li>
+                            <li><a href="#" class="py-2 d-block">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 pt-5">
+                    <div class="ftco-footer-widget pt-md-5 mb-4">
+                        <h2 class="ftco-heading-2">Have a Questions?</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+128000099988</span></a></li>
+                                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span
+                      class="text">hello@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                    <p>
+                        Copyright &copy; 2021 All rights CS-Design 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
