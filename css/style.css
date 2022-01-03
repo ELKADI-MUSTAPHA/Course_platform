@@ -11268,7 +11268,7 @@ h5,
 
 @media (max-width: 991.98px) {
     .ftco-navbar-light {
-        background: #000000 !important;
+        background: #3c44c8 !important;
         position: relative;
         top: 0;
         padding-top: 0;
@@ -11424,7 +11424,7 @@ nav .user a {
 
 .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: rgb(255 255 255) !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
@@ -11497,7 +11497,7 @@ nav .user a {
 
 .ftco-navbar-light.scrolled .navbar-toggler {
     border: none;
-    color: rgba(0, 0, 0, 0.5) !important;
+    color: black !important;
     border-color: rgba(0, 0, 0, 0.5) !important;
     cursor: pointer;
     margin-right: 15px !important;
@@ -11538,7 +11538,7 @@ nav .user a {
 
 @media (max-width: 991.98px) {
     .ftco-navbar-light.scrolled .navbar-brand {
-        color: #000000;
+        color: #3c44c8;
     }
 }
 
@@ -11626,6 +11626,23 @@ nav .user a {
 @media (max-width: 767.98px) {
     .slider-text h1 {
         font-size: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .bg-light {
+        margin-top: 3rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .ftco-about .img{
+        width: 100% !important;
+    }
+    .ftco-no-pt {
+        padding-top: 3rem !important;
+    }
+    .ftco-no-pt iframe{
+        height: 300px;
     }
 }
 
@@ -12502,11 +12519,8 @@ textarea.form-control {
 }
 
 .ftco-no-pt {
-    padding-top: 0 !important;
-}
-
-.ftco-no-pb {
-    padding-bottom: 0 !important;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .ftco-bg-dark {
